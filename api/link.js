@@ -35,6 +35,7 @@ async function getId(reqLink) {
     await fetch({
       url: reqLink,
       method: "get",
+      type: "integer",
     })
   ).data
     .split('"song":{"type":"')[1]
