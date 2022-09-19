@@ -87,7 +87,7 @@ module.exports = {
           {
             name: "link",
             in: "query",
-            type: "string",
+            type: "integer",
           },
           {
             name: "lyrics",
